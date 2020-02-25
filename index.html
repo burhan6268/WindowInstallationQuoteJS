@@ -1,0 +1,103 @@
+<!--
+    Name : Burhanuddin Lokhandwala
+-->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Burhanuddin Lokhandwala</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/lokhanbu.css" rel="stylesheet">
+	<script type="text/javascript" src="js/lokhanbu.js"></script>					
+</head>
+
+<body>
+    
+    <section class="Agrid">
+        
+        <header class="headerA">
+            <h3>Created by Burhanuddin Lokhandwala</h3>
+        </header>
+
+        <section class="userInput">
+            Window Installation Quote <hr>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="name">Your Name</label>
+                            </td>
+                            <td>
+                                <input type="text" name="name" id="name" value="Burhanuddin">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="em">E-Mail Address</label>
+                            </td>
+                            <td>
+                                <input type="text" name="em" id="email" value="burhanuddin6268@gmail.com">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="room">Select Room</label>
+                            </td>
+                            <td>
+                                <select name="room"  id="room"><!--can use option selected to pre check -->
+                                    <option value="Living Room">Living Room</option>
+                                    <option value="Washroom">Washroom</option>
+                                    <option value="Bedroom">Bedroom</option>
+                                    <option value="Playroom">Playroom</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="width">Width of Window</label>
+                            </td>
+                            <td>
+                                <input type="number" name="width" id="widthW" value="10">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="length">Length of Window</label>
+                            </td>
+                            <td>
+                                <input type="number" name="length" id="lengthW" value="20">	
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="material" id="material"> Material</label>
+                            </td>
+                            <td style="text-align: right">
+                                <input type="radio" name="material" value="Vinyl" checked>Vinyl
+                                <input type="radio" name="material" value="Aluminium">Aluminium
+                                <input type="radio" name="material" value="Fibre Glass">Fibre Glass
+                            </td>
+                        </tr>
+                    </table>
+                    <a href="pages/page2.html"><input type="button" value="Get Quote" onclick="saveData()" id="saveData"></a>
+                    
+        </section>
+        
+        <section class="SalesRep">
+            <h3><center><div class="SR">Sales Representative</div> </center></h3>
+            <figure>
+                <img src="images/SalesRep.png" alt="Image of Sales Representative" height="150px" border="2px" >
+
+                <figcaption>Burhanuddin Lokhandwala</figcaption>
+            </figure>
+        </section>
+
+        
+        <footer class="footerA">
+                Vora Ltd.
+        </footer>
+
+    </section>
+
+</body>
+</html>
